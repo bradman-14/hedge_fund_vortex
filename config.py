@@ -1,0 +1,11 @@
+INITIAL_CAPITAL = 1_000_000      # $1M starting portfolio
+MAX_POSITION_PCT = 0.25          # Max 25% in any single asset
+RISK_FREE_RATE = 0.03            # 3% annualized
+TRANSACTION_COST = 0.001         # 0.1% per trade
+SLIPPAGE = 0.0005                # 0.05% slippage
+REBALANCE_FREQ = 21              # Monthly (~21 trading days)
+VAR_CONFIDENCE = 0.95            # 95% VaR
+LOOKBACK_VOL = 20                # 20-day rolling volatility
+MOMENTUM_WINDOW = 10             # 10-day momentum
+SIGNAL_THRESHOLD = 0.02          # Min momentum to trigger signal
+ASSETS = ["Equity", "Oil", "Gold", "Bonds"]
